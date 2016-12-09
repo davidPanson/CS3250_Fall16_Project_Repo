@@ -17,12 +17,15 @@ html {
  */
 
 body {
-  text-align: center;
-  margin: 0;
-      height: auto;
-    padding: 5px 0px;
-	display: inline; 
+  	text-align: center;
+  	margin: 0;
+        height: auto;
+	width: auto
+	padding: 0px;
+	display: inline;
+	overflow:hidden;
 }
+
 
 /* HTML5 display definitions
    ========================================================================== */
