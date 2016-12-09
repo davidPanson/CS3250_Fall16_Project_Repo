@@ -19,6 +19,9 @@ html {
 body {
   text-align: center;
   margin: 0;
+      height: auto;
+    padding: 5px 0px;
+	display: inline; 
 }
 
 /* HTML5 display definitions
@@ -525,7 +528,7 @@ a.button {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 23px;
   line-height: 1.2;
-  color: #fff;
+  color: red;
 }
 a.button small {
   display: block;
@@ -621,6 +624,7 @@ form {
   color: #474747;
   text-indent: 6px;
   letter-spacing: -1px;
+  text-align: center;
 }
 
 #main-content h1:before {
@@ -628,6 +632,7 @@ form {
   margin-left: -0.9em;
   color: #9ddcff;
   content: "/";
+  text-align: center;
 }
 
 #main-content h2 {
@@ -637,6 +642,7 @@ form {
   font-weight: bold;
   color: #474747;
   text-indent: 4px;
+  text-align: center;
 }
 #main-content h2:before {
   padding-right: 0.3em;
@@ -743,6 +749,7 @@ dl dd {
 }
 
 footer {
+  text-align: center;
   padding-top: 20px;
   padding-bottom: 30px;
   margin-top: 40px;
