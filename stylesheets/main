@@ -1,0 +1,159 @@
+.header{
+	margin-left: auto;
+    margin-right: auto;
+	width: 32%;
+}
+
+#menu {
+    width: 99%;
+    height: 10%;
+    font-size: 2em;
+    font-family: Times New Roman, Geneva;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+	
+	border:2px solid red;
+}
+
+#menu ul {
+    height: auto;
+    padding: 5px 0px;
+    margin: 0px;
+	display: inline; 
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    padding: 11px 11px 11px 11px;
+	
+}
+
+#menu a:hover {
+    color: red;
+}
+
+h1 {
+	 text-align: center;
+}
+
+h2 {
+	color: red;
+}
+
+h3{
+	font-style: italic;
+}
+
+main~h2{
+	font-size: 40px;
+	color: white;
+}
+
+header{
+	background-color: black;
+	padding: 10px 0px 10px 0px;
+	color: white;
+}
+
+img{
+   padding:1px;
+   border:1px solid red;
+   background-color:red;
+   margin: auto;
+}
+
+footer{
+	margin-top: 40px;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+footer{
+	border:2px solid red;
+}
+
+main{
+    font-family: "Times New Roman", Times, serif;
+	padding-top: 15px;
+	margin: 25px;
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+
+#homeMain {
+    margin: auto;
+    width: 50%;
+    border: 3px solid red;
+    padding: 10px;
+}
+
+body
+{
+	text-align: center;
+	background-color: white;
+	margin: auto;
+}
+
+a:link {
+	text-decoration: none; 
+}
+
+
+#container{
+	padding-top: 0px;
+    width: 40%;
+    background: orange;
+	float: center;
+	text-align: center;
+}
+
+#homeMain{
+	text-align: center;
+	align: center;
+}
+
+#floated{
+    float: center;
+    width: 50%;
+}
+
+ul{
+	text-align: center;
+	
+}
+
+li {
+    float: none;
+    display: inline-block;
+	text-align: center;
+}
+
+@media only screen and (max-width: 700px){
+	#menu ul 
+	{
+		height: auto;
+		padding: 5px 0px;
+		margin: 0px;
+		display: block;
+		text-align: center;
+	}
+	
+
+	main
+	{
+		font-family: "Times New Roman", Times, serif;
+		padding-top: 5px;
+		margin: 2%;
+		text-align: center;
+	}
+	
+	img
+	{
+		display: none;
+	}
+}
